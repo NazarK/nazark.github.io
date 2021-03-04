@@ -14,7 +14,7 @@ files = files.collect { |s| s.strip }
 
 
 files.sort.each do |file|
-  content += "<a href='/html/#{file}'>#{file}</a>\n"
+  content += "<a href='/html/#{file}'>#{file}</a><br>\n"
 end
 
 
