@@ -13606,7 +13606,6 @@ input:focus, select:focus {
     width: 100%;
     position: absolute;
     z-index: 1;
-<<<<<<< HEAD
     background-repeat: no-repeat;
     overflow: hidden; }
 
@@ -13615,9 +13614,6 @@ input:focus, select:focus {
     height: 153px; }
     .section-banner-catalog--image {
       height: 153px; } }
-=======
-    background-repeat: no-repeat; }
->>>>>>> 8fd6f1f9641944ff87f260abae559368856f1708
 
 .section-banner {
   position: relative;
