@@ -13595,7 +13595,9 @@ input:focus, select:focus {
     position: absolute;
     bottom: 25px;
     left: 25px;
-    width: 100%; } }
+    width: 100%; }
+    .breadcumbs-catalog .breadcrumb > nav .breadcrumb-catalog-item.active {
+      text-transform: uppercase; } }
 
 .section-banner-catalog {
   position: relative;
@@ -14913,8 +14915,7 @@ input:focus, select:focus {
       border: 0.799348px solid #DBDBDB;
       box-sizing: border-box;
       border-radius: 5px;
-      max-width: 316px;
-      width: 100%; }
+      width: 295px; }
       .cart-items--block-delivery--select .nice-select span.current {
         font-family: Montserrat;
         font-style: normal;
@@ -16973,6 +16974,49 @@ input:focus, select:focus {
 
 .dropdown-base select[disabled] {
   color: rgba(0, 0, 0, 0.25); }
+
+.dropdown-niceselect::after {
+  background-image: none;
+  content: ''; }
+
+.dropdown-niceselect .nice-select {
+  height: 44px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 42px;
+  color: #3C3C3C;
+  background: #FFFFFF;
+  border: 0.799348px solid #DBDBDB;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 150px; }
+  .dropdown-niceselect .nice-select span.current {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    color: #3C3C3C; }
+  .dropdown-niceselect .nice-select.open span.current {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12.7896px;
+    color: #000000; }
+  .dropdown-niceselect .nice-select .list {
+    margin-top: -2px;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    max-width: 316px;
+    width: 100%; }
+    .dropdown-niceselect .nice-select .list .option {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12.7896px;
+      color: #3C3C3C; }
 
 .radio-base {
   position: relative; }
