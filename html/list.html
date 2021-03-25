@@ -534,7 +534,11 @@
                   </ol>
                 </nav>
                 <div class="section-banner-catalog">
-                  <div class="section-banner-catalog--image" style="background-image: url('/assets/images/v2/category/bread-category.png');"></div>
+                  <div class="section-banner-catalog--image">
+                    <picture>
+                      <source srcset="/assets/images/v2/category/bread-category-mob.png" media="(max-width: 370px)"><img src="/assets/images/v2/category/bread-category.png">
+                    </picture>
+                  </div>
                 </div>
               </div>
             </div>
@@ -621,8 +625,8 @@
                 </div>
                 <div class="col-12 col-lg-9">
                   <div class="filters">
-                    <div class="filters--selects"><span class="filters--title d-inline-block font-size-16 color-7E7E7E">Сортировать по:</span><span class="dropdown-base">
-                        <select class="resizeselect" name="name">
+                    <div class="filters--selects"><span class="filters--title d-inline-block font-size-16 color-7E7E7E">Сортировать по:</span><span class="dropdown-base dropdown-niceselect">
+                        <select class="nice-select" name="name">
                           <option value="popular">Популярности</option>
                           <option value="price">Цене</option>
                         </select></span>
