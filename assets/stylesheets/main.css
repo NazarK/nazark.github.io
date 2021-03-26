@@ -13611,7 +13611,7 @@ input:focus, select:focus {
     background-repeat: no-repeat;
     overflow: hidden; }
 
-@media (max-width: 370px) {
+@media (max-width: 480px) {
   .section-banner-catalog {
     height: 153px; }
     .section-banner-catalog--image {
@@ -16991,7 +16991,7 @@ input:focus, select:focus {
   border: 0.799348px solid #DBDBDB;
   box-sizing: border-box;
   border-radius: 5px;
-  width: 150px; }
+  width: 181px; }
   .dropdown-niceselect .nice-select span.current {
     font-family: Montserrat;
     font-style: normal;

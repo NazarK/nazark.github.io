@@ -589,7 +589,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* WEBPACK VAR INJECTION */(f
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__(/*! /home/nazar/www/tip-top.shop/rails-tip-top.shop/html/work/assets/main.js */\"./work/assets/main.js\");\n\n\n//# sourceURL=webpack:///multi_./work/assets/main.js?");
+eval("module.exports = __webpack_require__(/*! /home/nazar/www/tip-top.shop/rails-tip-top-shop/html/work/assets/main.js */\"./work/assets/main.js\");\n\n\n//# sourceURL=webpack:///multi_./work/assets/main.js?");
 
 /***/ })
 
